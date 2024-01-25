@@ -1,1 +1,9 @@
-<p>quero um açai!</p>
+<p>Lista de cursos do portal {{nomePortal}}</p>
+<curso-detalhe></curso-detalhe>
+
+
+<ul>
+  <li *ngFor="let curso of cursos">
+    {{curso}}
+  </li>
+</ul>
